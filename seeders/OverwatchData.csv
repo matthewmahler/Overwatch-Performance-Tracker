@@ -1,0 +1,785 @@
+AccountGameNumber	SeasonGameNumber	Rank	Map	Season	BattleTag (foreign key)	PlacementMatch	IfPlacementWLD
+1819	1		PLACEMENT	6	EmoMatt91	Y	W
+1820	2		PLACEMENT	6	EmoMatt91	Y	W
+1821	3		PLACEMENT	6	EmoMatt91	Y	W
+1822	4		PLACEMENT	6	EmoMatt91	Y	W
+1823	5		PLACEMENT	6	EmoMatt91	Y	W
+1824	6		PLACEMENT	6	EmoMatt91	Y	W
+1825	7		PLACEMENT	6	EmoMatt91	Y	W
+1826	8		PLACEMENT	6	EmoMatt91	Y	L
+1827	9		PLACEMENT	6	EmoMatt91	Y	L
+1828	10	3171	PLACEMENT	6	EmoMatt91	Y	L
+1829	11	3142	Numbani	6	EmoMatt91	N	
+1830	12	3162	Hollywood	6	EmoMatt91	N	
+1831	13	3132	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1832	14	3105	Temple of Anubis	6	EmoMatt91	N	
+1833	15	3082	Oasis	6	EmoMatt91	N	
+1834	16	3063	Horizon Lunar Colony	6	EmoMatt91	N	
+1835	17	3039	Nepal	6	EmoMatt91	N	
+1836	18	3061	Volskaya Industries	6	EmoMatt91	N	
+1837	19	3082	Ilios	6	EmoMatt91	N	
+1838	20	3058	Eichenwalde	6	EmoMatt91	N	
+1839	21	3078	Horizon Lunar Colony	6	EmoMatt91	N	
+1840	22	3078	Temple of Anubis	6	EmoMatt91	N	
+1841	23	3104	Route 66	6	EmoMatt91	N	
+1842	24	3118	Volskaya Industries	6	EmoMatt91	N	
+1843	25	3118	Eichenwalde	6	EmoMatt91	N	
+1844	26	3143	Ilios	6	EmoMatt91	N	
+1845	27	3110	Nepal	6	EmoMatt91	N	
+1846	28	3084	Lijiang Tower	6	EmoMatt91	N	
+1847	29	3060	Hanamura	6	EmoMatt91	N	
+1848	30	3033	Dorado	6	EmoMatt91	N	
+1849	31	3051	Oasis	6	EmoMatt91	N	
+1850	32	3078	Hollywood	6	EmoMatt91	N	
+1851	33	3101	Hanamura	6	EmoMatt91	N	
+1852	34	3078	Dorado	6	EmoMatt91	N	
+1853	35	3100	Temple of Anubis	6	EmoMatt91	N	
+1854	36	3075	Volskaya Industries	6	EmoMatt91	N	
+1855	37	3107	Numbani	6	EmoMatt91	N	
+1856	38	3080	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1857	39	3102	Hollywood	6	EmoMatt91	N	
+1858	40	3074	Lijiang Tower	6	EmoMatt91	N	
+1859	41	3094	Ilios	6	EmoMatt91	N	
+1860	42	3112	Hanamura	6	EmoMatt91	N	
+1861	43	3137	Temple of Anubis	6	EmoMatt91	N	
+1862	44	3111	King's Row	6	EmoMatt91	N	
+1863	45	3083	Dorado	6	EmoMatt91	N	
+1864	46	3106	Numbani	6	EmoMatt91	N	
+1865	47	3131	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1866	48	3156	Hollywood	6	EmoMatt91	N	
+1867	49	3185	Horizon Lunar Colony	6	EmoMatt91	N	
+1868	50	3206	Route 66	6	EmoMatt91	N	
+1869	51	3231	Dorado	6	EmoMatt91	N	
+1870	52	3211	Horizon Lunar Colony	6	EmoMatt91	N	
+1871	53	3186	Nepal	6	EmoMatt91	N	
+1872	54	3211	Route 66	6	EmoMatt91	N	
+1873	55	3187	Hanamura	6	EmoMatt91	N	
+1874	56	3162	King's Row	6	EmoMatt91	N	
+1875	57	3187	Horizon Lunar Colony	6	EmoMatt91	N	
+1876	58	3164	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1877	59	3187	Temple of Anubis	6	EmoMatt91	N	
+1878	60	3163	Dorado	6	EmoMatt91	N	
+1879	61	3184	Temple of Anubis	6	EmoMatt91	N	
+1880	62	3159	Route 66	6	EmoMatt91	N	
+1881	63	3136	Ilios	6	EmoMatt91	N	
+1882	64	3109	Volskaya Industries	6	EmoMatt91	N	
+1883	65	3138	Lijiang Tower	6	EmoMatt91	N	
+1884	66	3158	King's Row	6	EmoMatt91	N	
+1885	67	3133	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1886	68	3109	Oasis	6	EmoMatt91	N	
+1887	69	3140	Eichenwalde	6	EmoMatt91	N	
+1888	70	3163	Dorado	6	EmoMatt91	N	
+1889	71	3137	Dorado	6	EmoMatt91	N	
+1890	72	3137	King's Row	6	EmoMatt91	N	
+1891	73	3162	Lijiang Tower	6	EmoMatt91	N	
+1892	74	3138	Hanamura	6	EmoMatt91	N	
+1893	75	3161	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1894	76	3135	Oasis	6	EmoMatt91	N	
+1895	77	3162	Temple of Anubis	6	EmoMatt91	N	
+1896	78	3185	Hollywood	6	EmoMatt91	N	
+1897	79	3207	Eichenwalde	6	EmoMatt91	N	
+1898	80	3234	Numbani	6	EmoMatt91	N	
+1899	81	3251	Nepal	6	EmoMatt91	N	
+1900	82	3227	Ilios	6	EmoMatt91	N	
+1901	83	3200	Route 66	6	EmoMatt91	N	
+1902	84	3176	Eichenwalde	6	EmoMatt91	N	
+1903	85	3194	Lijiang Tower	6	EmoMatt91	N	
+1904	86	3167	Volskaya Industries	6	EmoMatt91	N	
+1905	87	3142	Oasis	6	EmoMatt91	N	
+1906	88	3165	Horizon Lunar Colony	6	EmoMatt91	N	
+1907	89	3165	Hanamura	6	EmoMatt91	N	
+1908	90	3138	Temple of Anubis	6	EmoMatt91	N	
+1909	91	3162	King's Row	6	EmoMatt91	N	
+1910	92	3135	Dorado	6	EmoMatt91	N	
+1911	93	3156	Nepal	6	EmoMatt91	N	
+1912	94	3175	Volskaya Industries	6	EmoMatt91	N	
+1913	95	3143	Lijiang Tower	6	EmoMatt91	N	
+1914	96	3120	Route 66	6	EmoMatt91	N	
+1915	97	3093	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1916	98	3113	Eichenwalde	6	EmoMatt91	N	
+1917	99	3113	Numbani	6	EmoMatt91	N	
+1918	100	3128	Hanamura	6	EmoMatt91	N	
+1919	101	3102	Hanamura	6	EmoMatt91	N	
+1920	102	3079	Oasis	6	EmoMatt91	N	
+1921	103	3100	Hollywood	6	EmoMatt91	N	
+1922	104	3073	Ilios	6	EmoMatt91	N	
+1923	105	3090	Nepal	6	EmoMatt91	N	
+1924	106	3064	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1925	107	3085	Volskaya Industries	6	EmoMatt91	N	
+1926	108	3106	Hollywood	6	EmoMatt91	N	
+1927	109	3082	Route 66	6	EmoMatt91	N	
+1928	110	3056	Dorado	6	EmoMatt91	N	
+1929	111	3075	Ilios	6	EmoMatt91	N	
+1930	112	3046	Lijiang Tower	6	EmoMatt91	N	
+1931	113	3017	Hanamura	6	EmoMatt91	N	
+1932	114	3041	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1933	115	3067	Eichenwalde	6	EmoMatt91	N	
+1934	116	3087	King's Row	6	EmoMatt91	N	
+1935	117	3110	Lijiang Tower	6	EmoMatt91	N	
+1936	118	3087	Route 66	6	EmoMatt91	N	
+1937	119	3061	Hanamura	6	EmoMatt91	N	
+1938	120	3036	Dorado	6	EmoMatt91	N	
+1939	121	3055	Temple of Anubis	6	EmoMatt91	N	
+1940	122	3078	Hollywood	6	EmoMatt91	N	
+1941	123	3100	Junkertown	6	EmoMatt91	N	
+1942	124	3074	Oasis	6	EmoMatt91	N	
+1943	125	3048	Dorado	6	EmoMatt91	N	
+1944	126	3071	Numbani	6	EmoMatt91	N	
+1945	127	3092	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1946	128	3114	King's Row	6	EmoMatt91	N	
+1947	129	3085	Route 66	6	EmoMatt91	N	
+1948	130	3060	Volskaya Industries	6	EmoMatt91	N	
+1949	131	3060	Horizon Lunar Colony	6	EmoMatt91	N	
+1950	132	3036	Hanamura	6	EmoMatt91	N	
+1951	133	3012	Junkertown	6	EmoMatt91	N	
+1952	134	2983	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1953	135	2951	Lijiang Tower	6	EmoMatt91	N	
+1954	136	2921	Ilios	6	EmoMatt91	N	
+1955	137	2898	King's Row	6	EmoMatt91	N	
+1956	138	2923	Oasis	6	EmoMatt91	N	
+1957	139	2899	Numbani	6	EmoMatt91	N	
+1958	140	2871	Hollywood	6	EmoMatt91	N	
+1959	141	2848	Nepal	6	EmoMatt91	N	
+1960	142	2866	Horizon Lunar Colony	6	EmoMatt91	N	
+1961	143	2891	Ilios	6	EmoMatt91	N	
+1962	144	2913	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1963	145	2913	Hollywood	6	EmoMatt91	N	
+1964	146	2939	Temple of Anubis	6	EmoMatt91	N	
+1965	147	2965	Numbani	6	EmoMatt91	N	
+1966	148	2939	Horizon Lunar Colony	6	EmoMatt91	N	
+1967	149	2914	Junkertown	6	EmoMatt91	N	
+1968	150	2937	Route 66	6	EmoMatt91	N	
+1969	151	2961	Volskaya Industries	6	EmoMatt91	N	
+1970	152	2984	Hollywood	6	EmoMatt91	N	
+1971	153	2958	Dorado	6	EmoMatt91	N	
+1972	154	2958	Hanamura	6	EmoMatt91	N	
+1973	155	2979	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1974	156	3004	Lijiang Tower	6	EmoMatt91	N	
+1975	157	2977	Hanamura	6	EmoMatt91	N	
+1976	158	2950	Route 66	6	EmoMatt91	N	
+1977	159	2927	Volskaya Industries	6	EmoMatt91	N	
+1978	160	2952	Watchpoint: Gibraltar	6	EmoMatt91	N	
+1979	161	2975	Numbani	6	EmoMatt91	N	
+1980	162	2951	Horizon Lunar Colony	6	EmoMatt91	N	
+1981	163	2933	Dorado	6	EmoMatt91	N	
+1982	164	2910	Junkertown	6	EmoMatt91	N	
+1983	165	2934	Oasis	6	EmoMatt91	N	
+1984	166	2955	Hanamura	6	EmoMatt91	N	
+1985	167	2977	King's Row	6	EmoMatt91	N	
+1986	168	2953	Horizon Lunar Colony	6	EmoMatt91	N	
+1987	169	2932	Route 66	6	EmoMatt91	N	
+1988	170	2950	Nepal	6	EmoMatt91	N	
+1989	171	2971	Junkertown	6	EmoMatt91	N	
+1990	172	2993	Hollywood	6	EmoMatt91	N	
+1991	173	3012	Temple of Anubis	6	EmoMatt91	N	
+1992	174	3031	Oasis	6	EmoMatt91	N	
+1993	175	3007	Lijiang Tower	6	EmoMatt91	N	
+1994	176	2983	Eichenwalde	6	EmoMatt91	N	
+1995	177	3002	Volskaya Industries	6	EmoMatt91	N	
+1996	178	3023	Hanamura	6	EmoMatt91	N	
+1997	179	2996	Numbani	6	EmoMatt91	N	
+1998	180	3020	Nepal	6	EmoMatt91	N	
+1999	181	3020	Horizon Lunar Colony	6	EmoMatt91	N	
+2000	182	3042	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2001	183	3017	Lijiang Tower	6	EmoMatt91	N	
+2002	184	3037	Route 66	6	EmoMatt91	N	
+2003	185	3058	Volskaya Industries	6	EmoMatt91	N	
+2004	186	3087	Oasis	6	EmoMatt91	N	
+2005	187	3113	Eichenwalde	6	EmoMatt91	N	
+2006	188	3113	Numbani	6	EmoMatt91	N	
+2007	189	3088	King's Row	6	EmoMatt91	N	
+2008	190	3113	Hanamura	6	EmoMatt91	N	
+2009	191	3139	Ilios	6	EmoMatt91	N	
+2010	192	3163	Hanamura	6	EmoMatt91	N	
+2011	193	3184	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2012	194	3206	Route 66	6	EmoMatt91	N	
+2013	195	3206	Volskaya Industries	6	EmoMatt91	N	
+2014	196	3182	Eichenwalde	6	EmoMatt91	N	
+2015	197	3201	Nepal	6	EmoMatt91	N	
+2016	198	3220	Temple of Anubis	6	EmoMatt91	N	
+2017	199	3191	Horizon Lunar Colony	6	EmoMatt91	N	
+2018	200	3164	Numbani	6	EmoMatt91	N	
+2019	201	3138	Lijiang Tower	6	EmoMatt91	N	
+2020	202	3165	Dorado	6	EmoMatt91	N	
+2021	203	3141	Ilios	6	EmoMatt91	N	
+2022	204	3167	Volskaya Industries	6	EmoMatt91	N	
+2023	205	3191	Route 66	6	EmoMatt91	N	
+2024	206	3218	Hanamura	6	EmoMatt91	N	
+2025	207	3191	Numbani	6	EmoMatt91	N	
+2026	208	3167	Oasis	6	EmoMatt91	N	
+2027	209	3142	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2028	210	3168	Hollywood	6	EmoMatt91	N	
+2029	211	3149	King's Row	6	EmoMatt91	N	
+2030	212	3167	Dorado	6	EmoMatt91	N	
+2031	213	3146	Numbani	6	EmoMatt91	N	
+2032	214	3120	Volskaya Industries	6	EmoMatt91	N	
+2033	215	3096	Junkertown	6	EmoMatt91	N	
+2034	216	3119	Hanamura	6	EmoMatt91	N	
+2035	217	3139	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2036	218	3159	Route 66	6	EmoMatt91	N	
+2037	219	3184	Temple of Anubis	6	EmoMatt91	N	
+2038	220	3156	Lijiang Tower	6	EmoMatt91	N	
+2039	221	3135	Lijiang Tower	6	EmoMatt91	N	
+2040	222	3105	Hollywood	6	EmoMatt91	N	
+2041	223	3124	Junkertown	6	EmoMatt91	N	
+2042	224	3094	Nepal	6	EmoMatt91	N	
+2043	225	3120	Volskaya Industries	6	EmoMatt91	N	
+2044	226	3143	Dorado	6	EmoMatt91	N	
+2045	227	3168	Ilios	6	EmoMatt91	N	
+2046	228	3189	Hanamura	6	EmoMatt91	N	
+2047	229	3165	Eichenwalde	6	EmoMatt91	N	
+2048	230	3189	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2049	231	3161	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2050	232	3135	Oasis	6	EmoMatt91	N	
+2051	233	3149	Route 66	6	EmoMatt91	N	
+2052	234	3122	Nepal	6	EmoMatt91	N	
+2053	235	3096	Horizon Lunar Colony	6	EmoMatt91	N	
+2054	236	3068	Numbani	6	EmoMatt91	N	
+2055	237	3038	Hollywood	6	EmoMatt91	N	
+2056	238	3057	Eichenwalde	6	EmoMatt91	N	
+2057	239	3057	Hanamura	6	EmoMatt91	N	
+2058	240	3081	Nepal	6	EmoMatt91	N	
+2059	241	3059	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2060	242	3037	Temple of Anubis	6	EmoMatt91	N	
+2061	243	3019	King's Row	6	EmoMatt91	N	
+2062	244	3036	Oasis	6	EmoMatt91	N	
+2063	245	3061	Volskaya Industries	6	EmoMatt91	N	
+2064	246	3081	Ilios	6	EmoMatt91	N	
+2065	247	3031	DISCONNECT	6	EmoMatt91	N	
+2066	248	3058	Lijiang Tower	6	EmoMatt91	N	
+2067	249	3036	Hanamura	6	EmoMatt91	N	
+2068	250	3015	Numbani	6	EmoMatt91	N	
+2069	251	3041	Hollywood	6	EmoMatt91	N	
+2070	252	3070	Volskaya Industries	6	EmoMatt91	N	
+2071	253	3098	Horizon Lunar Colony	6	EmoMatt91	N	
+2072	254	3073	Dorado	6	EmoMatt91	N	
+2073	255	3101	Hollywood	6	EmoMatt91	N	
+2074	256	3078	Junkertown	6	EmoMatt91	N	
+2075	257	3056	Oasis	6	EmoMatt91	N	
+2076	258	3034	Route 66	6	EmoMatt91	N	
+2077	259	3034	Temple of Anubis	6	EmoMatt91	N	
+2078	260	3060	Nepal	6	EmoMatt91	N	
+2079	261	3037	Numbani	6	EmoMatt91	N	
+2080	262	3064	Hanamura	6	EmoMatt91	N	
+2081	263	3094	Lijiang Tower	6	EmoMatt91	N	
+2082	264	3114	King's Row	6	EmoMatt91	N	
+2083	265	3089	Temple of Anubis	6	EmoMatt91	N	
+2084	266	3111	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2085	267	3132	Nepal	6	EmoMatt91	N	
+2086	268	3154	Eichenwalde	6	EmoMatt91	N	
+2087	269	3179	Hollywood	6	EmoMatt91	N	
+2088	270	3202	Route 66	6	EmoMatt91	N	
+2089	271	3223	Eichenwalde	6	EmoMatt91	N	
+2090	272	3199	King's Row	6	EmoMatt91	N	
+2091	273	3172	Oasis	6	EmoMatt91	N	
+2092	274	3200	Hanamura	6	EmoMatt91	N	
+2093	275	3176	Route 66	6	EmoMatt91	N	
+2094	276	3197	Eichenwalde	6	EmoMatt91	N	
+2095	277	3172	Numbani	6	EmoMatt91	N	
+2096	278	3152	Hollywood	6	EmoMatt91	N	
+2097	279	3177	Junkertown	6	EmoMatt91	N	
+2098	280	3200	Ilios	6	EmoMatt91	N	
+2099	281	3226	Horizon Lunar Colony	6	EmoMatt91	N	
+2100	282	3250	Route 66	6	EmoMatt91	N	
+2101	283	3227	King's Row	6	EmoMatt91	N	
+2102	284	3200	Numbani	6	EmoMatt91	N	
+2103	285	3177	Hollywood	6	EmoMatt91	N	
+2104	286	3197	Oasis	6	EmoMatt91	N	
+2105	287	3176	Dorado	6	EmoMatt91	N	
+2106	288	3151	Hanamura	6	EmoMatt91	N	
+2107	289	3173	Nepal	6	EmoMatt91	N	
+2108	290	3153	Lijiang Tower	6	EmoMatt91	N	
+2109	291	3129	Temple of Anubis	6	EmoMatt91	N	
+2110	292	3104	Junkertown	6	EmoMatt91	N	
+2111	293	3127	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2112	294	3103	Volskaya Industries	6	EmoMatt91	N	
+2113	295	3082	Horizon Lunar Colony	6	EmoMatt91	N	
+2114	296	3059	Junkertown	6	EmoMatt91	N	
+2115	297	3078	Ilios	6	EmoMatt91	N	
+2116	298	3102	Eichenwalde	6	EmoMatt91	N	
+2117	299	3125	Route 66	6	EmoMatt91	N	
+2118	300	3150	Horizon Lunar Colony	6	EmoMatt91	N	
+2119	301	3126	Nepal	6	EmoMatt91	N	
+2120	302	3104	Numbani	6	EmoMatt91	N	
+2121	303	3083	Eichenwalde	6	EmoMatt91	N	
+2122	304	3058	Hollywood	6	EmoMatt91	N	
+2123	305	3028	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2124	306	3003	Oasis	6	EmoMatt91	N	
+2125	307	2980	Volskaya Industries	6	EmoMatt91	N	
+2126	308	3003	Ilios	6	EmoMatt91	N	
+2127	309	3023	Horizon Lunar Colony	6	EmoMatt91	N	
+2128	310	3041	King's Row	6	EmoMatt91	N	
+2129	311	3060	Ilios	6	EmoMatt91	N	
+2130	312	3038	Dorado	6	EmoMatt91	N	
+2131	313	3060	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2132	314	3084	Junkertown	6	EmoMatt91	N	
+2133	315	3059	Route 66	6	EmoMatt91	N	
+2134	316	3082	Hanamura	6	EmoMatt91	N	
+2135	317	3061	Nepal	6	EmoMatt91	N	
+2136	318	3037	Temple of Anubis	6	EmoMatt91	N	
+2137	319	3061	Lijiang Tower	6	EmoMatt91	N	
+2138	320	3082	Oasis	6	EmoMatt91	N	
+2139	321	3055	Horizon Lunar Colony	6	EmoMatt91	N	
+2140	322	3033	Hanamura	6	EmoMatt91	N	
+2141	323	3054	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2142	324	3027	Lijiang Tower	6	EmoMatt91	N	
+2143	325	3051	Route 66	6	EmoMatt91	N	
+2144	326	3075	Junkertown	6	EmoMatt91	N	
+2145	327	3103	Numbani	6	EmoMatt91	N	
+2146	328	3123	Temple of Anubis	6	EmoMatt91	N	
+2147	329	3148	Horizon Lunar Colony	6	EmoMatt91	N	
+2148	330	3121	Nepal	6	EmoMatt91	N	
+2149	331	3094	Oasis	6	EmoMatt91	N	
+2150	332	3065	Horizon Lunar Colony	6	EmoMatt91	N	
+2151	333	3084	Nepal	6	EmoMatt91	N	
+2152	334	3061	Numbani	6	EmoMatt91	N	
+2153	335	3091	Volskaya Industries	6	EmoMatt91	N	
+2154	336	3111	Route 66	6	EmoMatt91	N	
+2155	337	3089	Horizon Lunar Colony	6	EmoMatt91	N	
+2156	338	3062	Ilios	6	EmoMatt91	N	
+2157	339	3037	Temple of Anubis	6	EmoMatt91	N	
+2158	340	3061	Oasis	6	EmoMatt91	N	
+2159	341	3038	Ilios	6	EmoMatt91	N	
+2160	342	3014	Junkertown	6	EmoMatt91	N	
+2161	343	3014	Volskaya Industries	6	EmoMatt91	N	
+2162	344	3038	Numbani	6	EmoMatt91	N	
+2163	345	3016	Hanamura	6	EmoMatt91	N	
+2164	346	2992	Numbani	6	EmoMatt91	N	
+2165	347	2970	Temple of Anubis	6	EmoMatt91	N	
+2166	348	2946	Eichenwalde	6	EmoMatt91	N	
+2167	349	2969	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2168	350	2989	Junkertown	6	EmoMatt91	N	
+2169	351	2967	Horizon Lunar Colony	6	EmoMatt91	N	
+2170	352	2943	Route 66	6	EmoMatt91	N	
+2171	353	2970	Lijiang Tower	6	EmoMatt91	N	
+2172	354	3000	Temple of Anubis	6	EmoMatt91	N	
+2173	355	3022	Hanamura	6	EmoMatt91	N	
+2174	356	3049	Volskaya Industries	6	EmoMatt91	N	
+2175	357	3021	Watchpoint: Gibraltar	6	EmoMatt91	N	
+2176	358	2993	Eichenwalde	6	EmoMatt91	N	
+2177	359	3016	Ilios	6	EmoMatt91	N	
+2178	360	3042	Horizon Lunar Colony	6	EmoMatt91	N	
+2179	1		Placements	7	EmoMatt91	Y	W
+2180	2		Placements	7	EmoMatt91	Y	W
+2181	3		Placements	7	EmoMatt91	Y	W
+2182	4		Placements	7	EmoMatt91	Y	W
+2183	5		Placements	7	EmoMatt91	Y	L
+2184	6		Placements	7	EmoMatt91	Y	L
+2185	7		Placements	7	EmoMatt91	Y	L
+2186	8		Placements	7	EmoMatt91	Y	L
+2187	9		Placements	7	EmoMatt91	Y	L
+2188	10	2982	Placements	7	EmoMatt91	Y	L
+2189	11	2956	Ilios	7	EmoMatt91	N	
+2190	12	2931	Eichenwalde	7	EmoMatt91	N	
+2191	13	2906	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2192	14	2930	Nepal	7	EmoMatt91	N	
+2193	15	2904	Hollywood	7	EmoMatt91	N	
+2194	16	2930	Hanamura	7	EmoMatt91	N	
+2195	17	2955	King's Row	7	EmoMatt91	N	
+2196	18	2938	Horizon Lunar Colony	7	EmoMatt91	N	
+2197	19	2957	Junkertown	7	EmoMatt91	N	
+2198	20	2984	Oasis	7	EmoMatt91	N	
+2199	21	3004	Dorado	7	EmoMatt91	N	
+2200	22	3025	Hollywood	7	EmoMatt91	N	
+2201	23	3000	Lijiang Tower	7	EmoMatt91	N	
+2202	24	3024	Lijiang Tower	7	EmoMatt91	N	
+2203	25	3046	Eichenwalde	7	EmoMatt91	N	
+2204	26	3071	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2205	27	3091	Ilios	7	EmoMatt91	N	
+2206	28	3063	Volskaya Industries	7	EmoMatt91	N	
+2207	29	3038	Route 66	7	EmoMatt91	N	
+2208	30	3014	Junkertown	7	EmoMatt91	N	
+2209	31	3037	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2210	32	3014	Route 66	7	EmoMatt91	N	
+2211	33	3040	Junkertown	7	EmoMatt91	N	
+2212	34	3007	King's Row	7	EmoMatt91	N	
+2213	35	3033	Nepal	7	EmoMatt91	N	
+2214	36	3058	Nepal	7	EmoMatt91	N	
+2215	37	3083	Volskaya Industries	7	EmoMatt91	N	
+2216	38	3060	Numbani	7	EmoMatt91	N	
+2217	39	3036	Lijiang Tower	7	EmoMatt91	N	
+2218	40	3036	Hanamura	7	EmoMatt91	N	
+2219	41	3011	Numbani	7	EmoMatt91	N	
+2220	42	2982	Ilios	7	EmoMatt91	N	
+2221	43	3004	Lijiang Tower	7	EmoMatt91	N	
+2222	44	2983	Junkertown	7	EmoMatt91	N	
+2223	45	2962	Dorado	7	EmoMatt91	N	
+2224	46	2936	Horizon Lunar Colony	7	EmoMatt91	N	
+2225	47	2965	Route 66	7	EmoMatt91	N	
+2226	48	2993	Eichenwalde	7	EmoMatt91	N	
+2227	49	3017	Hollywood	7	EmoMatt91	N	
+2228	50	2994	Volskaya Industries	7	EmoMatt91	N	
+2229	51	3017	Hollywood	7	EmoMatt91	N	
+2230	52	3017	Hanamura	7	EmoMatt91	N	
+2231	53	3037	Ilios	7	EmoMatt91	N	
+2232	54	3061	Nepal	7	EmoMatt91	N	
+2233	55	3040	Lijiang Tower	7	EmoMatt91	N	
+2234	56	3065	Volskaya Industries	7	EmoMatt91	N	
+2235	57	3092	Horizon Lunar Colony	7	EmoMatt91	N	
+2236	58	3067	Oasis	7	EmoMatt91	N	
+2237	59	3041	Ilios	7	EmoMatt91	N	
+2238	60	3019	Nepal	7	EmoMatt91	N	
+2239	61	2993	Eichenwalde	7	EmoMatt91	N	
+2240	62	2966	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2241	63	2988	Horizon Lunar Colony	7	EmoMatt91	N	
+2242	64	2964	Ilios	7	EmoMatt91	N	
+2243	65	2939	Junkertown	7	EmoMatt91	N	
+2244	66	2910	Lijiang Tower	7	EmoMatt91	N	
+2245	67	2943	Dorado	7	EmoMatt91	N	
+2246	68	2965	Junkertown	7	EmoMatt91	N	
+2247	69	2991	Horizon Lunar Colony	7	EmoMatt91	N	
+2248	70	3018	Hollywood	7	EmoMatt91	N	
+2249	71	3046	Dorado	7	EmoMatt91	N	
+2250	72	3071	Nepal	7	EmoMatt91	N	
+2251	73	3071	Numbani	7	EmoMatt91	N	
+2252	74	3051	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2253	75	3051	Temple of Anubis	7	EmoMatt91	N	
+2254	76	3075	Route 66	7	EmoMatt91	N	
+2255	77	3052	Oasis	7	EmoMatt91	N	
+2256	78	3075	Hollywood	7	EmoMatt91	N	
+2257	79	3075	Horizon Lunar Colony	7	EmoMatt91	N	
+2258	80	3054	Lijiang Tower	7	EmoMatt91	N	
+2259	81	3032	Horizon Lunar Colony	7	EmoMatt91	N	
+2260	82	3058	Hollywood	7	EmoMatt91	N	
+2261	83	3082	Hollywood	7	EmoMatt91	N	
+2262	84	3106	Dorado	7	EmoMatt91	N	
+2263	85	3079	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2264	86	3056	Numbani	7	EmoMatt91	N	
+2265	87	3076	Junkertown	7	EmoMatt91	N	
+2266	88	3051	Oasis	7	EmoMatt91	N	
+2267	89	3075	Eichenwalde	7	EmoMatt91	N	
+2268	90	3055	Volskaya Industries	7	EmoMatt91	N	
+2269	91	3028	Hollywood	7	EmoMatt91	N	
+2270	92	3028	Horizon Lunar Colony	7	EmoMatt91	N	
+2271	93	3004	Dorado	7	EmoMatt91	N	
+2272	94	3023	Ilios	7	EmoMatt91	N	
+2273	95	3000	Route 66	7	EmoMatt91	N	
+2274	96	2978	Oasis	7	EmoMatt91	N	
+2275	97	2959	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2276	98	2959	Volskaya Industries	7	EmoMatt91	N	
+2277	99	2932	Junkertown	7	EmoMatt91	N	
+2278	100	2912	Dorado	7	EmoMatt91	N	
+2279	101	2932	Temple of Anubis	7	EmoMatt91	N	
+2280	102	2954	Nepal	7	EmoMatt91	N	
+2281	103	2979	Ilios	7	EmoMatt91	N	
+2282	104	2956	Numbani	7	EmoMatt91	N	
+2283	105	2935	Lijiang Tower	7	EmoMatt91	N	
+2284	106	2958	Oasis	7	EmoMatt91	N	
+2285	107	2987	Horizon Lunar Colony	7	EmoMatt91	N	
+2286	108	2987	Hollywood	7	EmoMatt91	N	
+2287	109	3011	Volskaya Industries	7	EmoMatt91	N	
+2288	110	3034	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2289	111	3008	Volskaya Industries	7	EmoMatt91	N	
+2290	112	2984	Nepal	7	EmoMatt91	N	
+2291	113	2960	Route 66	7	EmoMatt91	N	
+2292	114	2983	Lijiang Tower	7	EmoMatt91	N	
+2293	115	2964	Oasis	7	EmoMatt91	N	
+2294	116	2987	Ilios	7	EmoMatt91	N	
+2295	117	3010	Horizon Lunar Colony	7	EmoMatt91	N	
+2296	118	3036	Route 66	7	EmoMatt91	N	
+2297	119	3060	Route 66	7	EmoMatt91	N	
+2298	120	3035	Watchpoint: Gibraltar	7	EmoMatt91	N	
+2299	121	3016	Temple of Anubis	7	EmoMatt91	N	
+2300	122	3040	Ilios	7	EmoMatt91	N	
+2301	123	3014	Junkertown	7	EmoMatt91	N	
+2302	1	3014	Placements	8	EmoMatt91	Y	W
+2303	2	3014	Placements	8	EmoMatt91	Y	W
+2304	3	3014	Placements	8	EmoMatt91	Y	W
+2305	4	3014	Placements	8	EmoMatt91	Y	W
+2306	5	3014	Placements	8	EmoMatt91	Y	W
+2307	6	3014	Placements	8	EmoMatt91	Y	W
+2308	7	3014	Placements	8	EmoMatt91	Y	L
+2309	8	3014	Placements	8	EmoMatt91	Y	L
+2310	9	3014	Placements	8	EmoMatt91	Y	L
+2311	10	3010	Placements	8	EmoMatt91	Y	L
+2312	11	2989	Volskaya Industries	8	EmoMatt91	N	
+2313	12	2967	Lijiang Tower	8	EmoMatt91	N	
+2314	13	2945	Dorado	8	EmoMatt91	N	
+2315	14	2921	Numbani	8	EmoMatt91	N	
+2316	15	2944	Hanamura	8	EmoMatt91	N	
+2317	16	2968	Temple of Anubis	8	EmoMatt91	N	
+2318	17	2992	Ilios	8	EmoMatt91	N	
+2319	18	3016	Oasis	8	EmoMatt91	N	
+2320	19	3041	Nepal	8	EmoMatt91	N	
+2321	20	3066	Hanamura	8	EmoMatt91	N	
+2322	21	3043	Numbani	8	EmoMatt91	N	
+2323	22	3066	Oasis	8	EmoMatt91	N	
+2324	23	3042	Dorado	8	EmoMatt91	N	
+2325	24	3065	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2326	25	3041	Ilios	8	EmoMatt91	N	
+2327	26	3064	King's Row	8	EmoMatt91	N	
+2328	27	3085	Oasis	8	EmoMatt91	N	
+2329	28	3108	Temple of Anubis	8	EmoMatt91	N	
+2330	29	3131	Numbani	8	EmoMatt91	N	
+2331	30	3107	Hollywood	8	EmoMatt91	N	
+2332	31	3107	Volskaya Industries	8	EmoMatt91	N	
+2333	32	3084	Route 66	8	EmoMatt91	N	
+2334	33	3060	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2335	34	3084	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2336	35	3060	Lijiang Tower	8	EmoMatt91	N	
+2337	36	3036	Horizon Lunar Colony	8	EmoMatt91	N	
+2338	37	3060	Hollywood	8	EmoMatt91	N	
+2339	38	3084	Hanamura	8	EmoMatt91	N	
+2340	39	3107	Numbani	8	EmoMatt91	N	
+2341	40	3131	Temple of Anubis	8	EmoMatt91	N	
+2342	41	3155	Dorado	8	EmoMatt91	N	
+2343	42	3179	Hanamura	8	EmoMatt91	N	
+2344	43	3203	King's Row	8	EmoMatt91	N	
+2345	44	3226	Junkertown	8	EmoMatt91	N	
+2346	45	3251	Temple of Anubis	8	EmoMatt91	N	
+2347	46	3275	Nepal	8	EmoMatt91	N	
+2348	47	3299	Oasis	8	EmoMatt91	N	
+2349	48	3323	Hanamura	8	EmoMatt91	N	
+2350	49	3347	Eichenwalde	8	EmoMatt91	N	
+2351	50	3323	Volskaya Industries	8	EmoMatt91	N	
+2352	51	3299	Dorado	8	EmoMatt91	N	
+2353	52	3275	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2354	53	3251	Eichenwalde	8	EmoMatt91	N	
+2355	54	3251	Hanamura	8	EmoMatt91	N	
+2356	55	3227	Temple of Anubis	8	EmoMatt91	N	
+2357	56	3203	Numbani	8	EmoMatt91	N	
+2358	57	3179	Route 66	8	EmoMatt91	N	
+2359	58	3155	Ilios	8	EmoMatt91	N	
+2360	59	3130	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2361	60	3106	Oasis	8	EmoMatt91	N	
+2362	61	3130	Horizon Lunar Colony	8	EmoMatt91	N	
+2363	62	3106	Nepal	8	EmoMatt91	N	
+2364	63	3130	Route 66	8	EmoMatt91	N	
+2365	64	3106	Hanamura	8	EmoMatt91	N	
+2366	65	3130	Hollywood	8	EmoMatt91	N	
+2367	66	3154	Lijiang Tower	8	EmoMatt91	N	
+2368	67	3130	Temple of Anubis	8	EmoMatt91	N	
+2369	68	3107	Junkertown	8	EmoMatt91	N	
+2370	69	3083	Lijiang Tower	8	EmoMatt91	N	
+2371	70	3083	Horizon Lunar Colony	8	EmoMatt91	N	
+2372	71	3107	Ilios	8	EmoMatt91	N	
+2373	72	3083	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2374	73	3107	Nepal	8	EmoMatt91	N	
+2375	74	3107	Numbani	8	EmoMatt91	N	
+2376	75	3084	Volskaya Industries	8	EmoMatt91	N	
+2377	76	3060	Route 66	8	EmoMatt91	N	
+2378	77	3036	Horizon Lunar Colony	8	EmoMatt91	N	
+2379	78	3059	Ilios	8	EmoMatt91	N	
+2380	79	3037	Hollywood	8	EmoMatt91	N	
+2381	80	3063	Numbani	8	EmoMatt91	N	
+2382	81	3085	Ilios	8	EmoMatt91	N	
+2383	82	3109	Eichenwalde	8	EmoMatt91	N	
+2384	83	3084	Nepal	8	EmoMatt91	N	
+2385	84	3107	Horizon Lunar Colony	8	EmoMatt91	N	
+2386	85	3131	Junkertown	8	EmoMatt91	N	
+2387	86	3107	Route 66	8	EmoMatt91	N	
+2388	87	3084	Oasis	8	EmoMatt91	N	
+2389	88	3108	Volskaya Industries	8	EmoMatt91	N	
+2390	89	3131	Temple of Anubis	8	EmoMatt91	N	
+2391	90	3155	Route 66	8	EmoMatt91	N	
+2392	91	3179	Ilios	8	EmoMatt91	N	
+2393	92	3203	Hanamura	8	EmoMatt91	N	
+2394	93	3227	Numbani	8	EmoMatt91	N	
+2395	94	3202	Junkertown	8	EmoMatt91	N	
+2396	95	3178	Horizon Lunar Colony	8	EmoMatt91	N	
+2397	96	3201	Nepal	8	EmoMatt91	N	
+2398	97	3226	Temple of Anubis	8	EmoMatt91	N	
+2399	98	3201	Nepal	8	EmoMatt91	N	
+2400	99	3225	Junkertown	8	EmoMatt91	N	
+2401	100	3249	Route 66	8	EmoMatt91	N	
+2402	101	3225	Dorado	8	EmoMatt91	N	
+2403	102	3249	Ilios	8	EmoMatt91	N	
+2404	103	3273	Hollywood	8	EmoMatt91	N	
+2405	104	3296	Hollywood	8	EmoMatt91	N	
+2406	105	3319	Hanamura	8	EmoMatt91	N	
+2407	106	3343	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2408	107	3320	Lijiang Tower	8	EmoMatt91	N	
+2409	108	3296	Junkertown	8	EmoMatt91	N	
+2410	109	3320	Volskaya Industries	8	EmoMatt91	N	
+2411	110	3343	Eichenwalde	8	EmoMatt91	N	
+2412	111	3365	Route 66	8	EmoMatt91	N	
+2413	112	3388	Lijiang Tower	8	EmoMatt91	N	
+2414	113	3363	Hanamura	8	EmoMatt91	N	
+2415	114	3339	King's Row	8	EmoMatt91	N	
+2416	115	3361	Temple of Anubis	8	EmoMatt91	N	
+2417	116	3384	Lijiang Tower	8	EmoMatt91	N	
+2418	117	3407	Route 66	8	EmoMatt91	N	
+2419	118	3381	Watchpoint: Gibraltar	8	EmoMatt91	N	
+2420	119	3357	Volskaya Industries	8	EmoMatt91	N	
+2421	120	3334	Eichenwalde	8	EmoMatt91	N	
+2422	121	3358	Horizon Lunar Colony	8	EmoMatt91	N	
+2423	122	3334	Numbani	8	EmoMatt91	N	
+2424	123	3359	King's Row	8	EmoMatt91	N	
+2425	124	3382	Junkertown	8	EmoMatt91	N	
+2426	125	3358	Lijiang Tower	8	EmoMatt91	N	
+2427	126	3334	Temple of Anubis	8	EmoMatt91	N	
+2428	127	3311	Dorado	8	EmoMatt91	N	
+2429	1	3311	Placements	9	EmoMatt91	Y	W
+2430	2	3311	Placements	9	EmoMatt91	Y	W
+2431	3	3311	Placements	9	EmoMatt91	Y	W
+2432	4	3311	Placements	9	EmoMatt91	Y	W
+2433	5	3311	Placements	9	EmoMatt91	Y	W
+2434	6	3311	Placements	9	EmoMatt91	Y	W
+2435	7	3311	Placements	9	EmoMatt91	Y	L
+2436	8	3311	Placements	9	EmoMatt91	Y	L
+2437	9	3311	Placements	9	EmoMatt91	Y	L
+2438	10	3142	Placements	9	EmoMatt91	Y	L
+2439	11	3118	Junkertown	9	EmoMatt91	N	
+2440	12	3142	Temple of Anubis	9	EmoMatt91	N	
+2441	13	3166	Nepal	9	EmoMatt91	N	
+2442	14	3191	Dorado	9	EmoMatt91	N	
+2443	15	3167	Oasis	9	EmoMatt91	N	
+2444	16	3191	Hanamura	9	EmoMatt91	N	
+2445	17	3167	Ilios	9	EmoMatt91	N	
+2446	18	3144	Route 66	9	EmoMatt91	N	
+2447	19	3167	Dorado	9	EmoMatt91	N	
+2448	20	3144	Hollywood	9	EmoMatt91	N	
+2449	21	3168	Ilios	9	EmoMatt91	N	
+2450	22	3191	Numbani	9	EmoMatt91	N	
+2451	23	3167	Lijiang Tower	9	EmoMatt91	N	
+2452	24	3192	Blizzard World	9	EmoMatt91	N	
+2453	25	3168	Dorado	9	EmoMatt91	N	
+2454	26	3145	Horizon Lunar Colony	9	EmoMatt91	N	
+2455	27	3168	Hanamura	9	EmoMatt91	N	
+2456	28	3193	Ilios	9	EmoMatt91	N	
+2457	29	3169	Oasis	9	EmoMatt91	N	
+2458	30	3193	Dorado	9	EmoMatt91	N	
+2459	31	3216	Volskaya Industries	9	EmoMatt91	N	
+2460	32	3240	Watchpoint: Gibraltar	9	EmoMatt91	N	
+2461	33	3216	Horizon Lunar Colony	9	EmoMatt91	N	
+2462	34	3240	Numbani	9	EmoMatt91	N	
+2463	35	3216	Temple of Anubis	9	EmoMatt91	N	
+2464	36	3191	Ilios	9	EmoMatt91	N	
+2465	37	3216	Nepal	9	EmoMatt91	N	
+2466	38	3193	Lijiang Tower	9	EmoMatt91	N	
+2467	39	3170	Oasis	9	EmoMatt91	N	
+2468	40	3147	Dorado	9	EmoMatt91	N	
+2469	41	3171	Oasis	9	EmoMatt91	N	
+2470	42	3195	Temple of Anubis	9	EmoMatt91	N	
+2471	43	3219	Oasis	9	EmoMatt91	N	
+2472	44	3195	Eichenwalde	9	EmoMatt91	N	
+2473	45	3219	Nepal	9	EmoMatt91	N	
+2474	46	3243	Dorado	9	EmoMatt91	N	
+2475	47	3265	Ilios	9	EmoMatt91	N	
+2476	48	3240	Horizon Lunar Colony	9	EmoMatt91	N	
+2477	49	3265	Oasis	9	EmoMatt91	N	
+2478	50	3289	Junkertown	9	EmoMatt91	N	
+2479	51	3289	Temple of Anubis	9	EmoMatt91	N	
+2480	52	3313	Route 66	9	EmoMatt91	N	
+2481	53	3336	Lijiang Tower	9	EmoMatt91	N	
+2482	54	3312	Nepal	9	EmoMatt91	N	
+2483	55	3288	Junkertown	9	EmoMatt91	N	
+2484	56	3313	King's Row	9	EmoMatt91	N	
+2485	57	3289	Dorado	9	EmoMatt91	N	
+2486	58	3265	Blizzard World	9	EmoMatt91	N	
+2487	59	3241	King's Row	9	EmoMatt91	N	
+2488	60	3217	Hollywood	9	EmoMatt91	N	
+2489	61	3241	Volskaya Industries	9	EmoMatt91	N	
+2490	62	3217	Hollywood	9	EmoMatt91	N	
+2491	63	3193	Numbani	9	EmoMatt91	N	
+2492	64	3217	Oasis	9	EmoMatt91	N	
+2493	65	3193	Blizzard World	9	EmoMatt91	N	
+2494	66	3217	Watchpoint: Gibraltar	9	EmoMatt91	N	
+2495	67	3241	Temple of Anubis	9	EmoMatt91	N	
+2496	68	3266	Nepal	9	EmoMatt91	N	
+2497	69	3242	King's Row	9	EmoMatt91	N	
+2498	70	3218	Blizzard World	9	EmoMatt91	N	
+2499	71	3243	Oasis	9	EmoMatt91	N	
+2500	72	3267	Numbani	9	EmoMatt91	N	
+2501	73	3243	Hanamura	9	EmoMatt91	N	
+2502	74	3219	Blizzard World	9	EmoMatt91	N	
+2503	75	3243	Horizon Lunar Colony	9	EmoMatt91	N	
+2504	76	3219	Eichenwalde	9	EmoMatt91	N	
+2505	77	3195	Watchpoint: Gibraltar	9	EmoMatt91	N	
+2506	78	3219	King's Row	9	EmoMatt91	N	
+2507	79	3243	Volskaya Industries	9	EmoMatt91	N	
+2508	80	3267	Numbani	9	EmoMatt91	N	
+2509	81	3291	Temple of Anubis	9	EmoMatt91	N	
+2510	82	3267	Dorado	9	EmoMatt91	N	
+2511	83	3243	Nepal	9	EmoMatt91	N	
+2512	84	3219	Lijiang Tower	9	EmoMatt91	N	
+2513	85	3243	Route 66	9	EmoMatt91	N	
+2514	86	3218	Blizzard World	9	EmoMatt91	N	
+2515	87	3194	Oasis	9	EmoMatt91	N	
+2516	88	3169	Dorado	9	EmoMatt91	N	
+2517	89	3193	Dorado	9	EmoMatt91	N	
+2518	90	3217	Eichenwalde	9	EmoMatt91	N	
+2519	91	3241	Ilios	9	EmoMatt91	N	
+2520	92	3265	Lijiang Tower	9	EmoMatt91	N	
+2521	93	3289	Junkertown	9	EmoMatt91	N	
+2522	94	3314	Nepal	9	EmoMatt91	N	
+2523	95	3338	Oasis	9	EmoMatt91	N	
+2524	96	3314	Watchpoint: Gibraltar	9	EmoMatt91	N	
+2525	97	3338	Blizzard World	9	EmoMatt91	N	
+2526	98	3314	Lijiang Tower	9	EmoMatt91	N	
+2527	99	3290	Numbani	9	EmoMatt91	N	
+2528	100	3266	Hanamura	9	EmoMatt91	N	
+2529	101	3243	Hanamura	9	EmoMatt91	N	
+2530	102	3266	Nepal	9	EmoMatt91	N	
+2531	103	3292	Watchpoint: Gibraltar	9	EmoMatt91	N	
+2532	104	3267	Hollywood	9	EmoMatt91	N	
+2533	105	3292	Numbani	9	EmoMatt91	N	
+2534	106	3318	Junkertown	9	EmoMatt91	N	
+2535	107	3296	Volskaya Industries	9	EmoMatt91	N	
+2536	108	3319	Eichenwalde	9	EmoMatt91	N	
+2537	109	3344	Horizon Lunar Colony	9	EmoMatt91	N	
+2538	110	3321	Route 66	9	EmoMatt91	N	
+2539	111	3344	Eichenwalde	9	EmoMatt91	N	
+2540	112	3367	Ilios	9	EmoMatt91	N	
+2541	113	3342	Temple of Anubis	9	EmoMatt91	N	
+2542	114	3319	Ilios	9	EmoMatt91	N	
+2543	115	3343	Lijiang Tower	9	EmoMatt91	N	
+2544	116	3367	Numbani	9	EmoMatt91	N	
+2545	117	3342	Oasis	9	EmoMatt91	N	
+2546	118	3317	Horizon Lunar Colony	9	EmoMatt91	N	
+2547	119	3341	Oasis	9	EmoMatt91	N	
+2548	120	3365	Blizzard World	9	EmoMatt91	N	
+2549	121	3340	Nepal	9	EmoMatt91	N	
+2550	122	3365	Volskaya Industries	9	EmoMatt91	N	
+2551	123	3388	Hanamura	9	EmoMatt91	N	
+2552	124	3365	Eichenwalde	9	EmoMatt91	N	
+2553	125	3388	Dorado	9	EmoMatt91	N	
+2554	126	3365	Temple of Anubis	9	EmoMatt91	N	
+2555	127	3341	King's Row	9	EmoMatt91	N	
+2556	128	3316	Junkertown	9	EmoMatt91	N	
+2557	129	3291	Horizon Lunar Colony	9	EmoMatt91	N	
+2558	130	3315	Dorado	9	EmoMatt91	N	
+2559	131	3290	Ilios	9	EmoMatt91	N	
+2560	132	3314	Route 66	9	EmoMatt91	N	
+2561	133	3338	Oasis	9	EmoMatt91	N	
+2562	134	3314	Hanamura	9	EmoMatt91	N	
+2563	135	3338	Nepal	9	EmoMatt91	N	
+2564	136	3362	Lijiang Tower	9	EmoMatt91	N	
+2565	137	3337	Horizon Lunar Colony	9	EmoMatt91	N	
+2566	138	3361	Hollywood	9	EmoMatt91	N	
+2567	139	3336	Eichenwalde	9	EmoMatt91	N	
+2568	140	3312	Ilios	9	EmoMatt91	N	
+2569	141	3287	Temple of Anubis	9	EmoMatt91	N	
+2570	142	3311	King's Row	9	EmoMatt91	N	
+2571	143	3336	Blizzard World	9	EmoMatt91	N	
+2572	144	3312	Watchpoint: Gibraltar	9	EmoMatt91	N	
+2573	145	3288	Lijiang Tower	9	EmoMatt91	N	
+2574	146	3264	Ilios	9	EmoMatt91	N	
+2575	147	3240	Junkertown	9	EmoMatt91	N	
+2576	148	3216	Dorado	9	EmoMatt91	N	
+2577	149	3192	Nepal	9	EmoMatt91	N	
+2578	150	3216	Numbani	9	EmoMatt91	N	
+2579	151	3192	Route 66	9	EmoMatt91	N	
+2580	152	3168	Hanamura	9	EmoMatt91	N	
+2581	153	3144	Lijiang Tower	9	EmoMatt91	N	
+2582	154	3120	Blizzard World	9	EmoMatt91	N	
+2583	155	3094	Temple of Anubis	9	EmoMatt91	N	
+2584	156	3094	Volskaya Industries	9	EmoMatt91	N	
+2585	157	3070	King's Row	9	EmoMatt91	N	
+2586	158	3047	Oasis	9	EmoMatt91	N	
+2587	159	3023	Nepal	9	EmoMatt91	N	
+2588	160	2999	Hollywood	9	EmoMatt91	N	
+2589	161	2976	Hanamura	9	EmoMatt91	N	
+2590	162	2952	Numbani	9	EmoMatt91	N	
+2591	163	2929	Route 66	9	EmoMatt91	N	
+2592	164	2906	Blizzard World	9	EmoMatt91	N	
+2593	165	2930	Watchpoint: Gibraltar	9	EmoMatt91	N	
+2594	166	2906	Ilios	9	EmoMatt91	N	
+2595	167	2929	King's Row	9	EmoMatt91	N	
+2596	168	2953	Hanamura	9	EmoMatt91	N	
+2597	169	2977	Nepal	9	EmoMatt91	N	
+2598	170	3000	Junkertown	9	EmoMatt91	N	
+2599	171	3024	Lijiang Tower	9	EmoMatt91	N	
+2600	172	3048	Volskaya Industries	9	EmoMatt91	N	
+2601	173	3025	Temple of Anubis	9	EmoMatt91	N	
+2602	174	3002	Horizon Lunar Colony	9	EmoMatt91	N	
