@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "koverwatch";
+	src: url("../font/koverwatch.ttf") format("truetype");
+}
+
+body {
+	background: #242424;
+	font-family: "koverwatch";
+	color: #fff;
+}
+
+th{
+	text-align: center;
+	font-size: 100%;
+	width: 16%;
+}
+
+.header-container{
+  background-color: #242424;
+}
+
+.main-logo{
+	text-align: center;
+}
+
+#menu{
+	z-index: 1;
+}
+#menu li{
+	display: inline-block
+}
+
+.btn-menu{
+	background-color: #f89e19;
+	color: #242424;
+	font-weight: 700;
+}
+
+.game-section{
+	text-align: center;
+	overflow: auto;
+}
+
