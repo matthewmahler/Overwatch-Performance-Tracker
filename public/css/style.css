@@ -11,7 +11,7 @@ body {
 
 th{
 	text-align: center;
-	font-size: 100%;
+	font-size: 2em;
 	width: 16%;
 }
 
@@ -23,11 +23,18 @@ th{
 	text-align: center;
 }
 
-#menu{
+nav #menu{
 	z-index: 1;
+display: inline-block;
+
 }
+
 #menu li{
 	display: inline-block
+}
+
+.main-logo{
+	width: 90%;
 }
 
 .btn-menu{
@@ -41,3 +48,6 @@ th{
 	overflow: auto;
 }
 
+form{
+	font-size: 2em;
+}

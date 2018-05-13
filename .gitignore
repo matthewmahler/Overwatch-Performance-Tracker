@@ -1,1 +1,4 @@
 node_modules
+sudocode.txt
+.env
+package-lock.json
