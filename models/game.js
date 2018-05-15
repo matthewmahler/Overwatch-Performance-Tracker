@@ -10,29 +10,27 @@ module.exports = function(sequelize, DataTypes) {
     },
     Rank: {
       type: DataTypes.INTEGER,
-      allowNull: false, 
     },
     Map: {
       type: DataTypes.STRING,
       allowNull: false, 
     },
-    Season: {
-      type: DataTypes.INTEGER,
-      allowNull: false, 
-    },
-    BattleTag: {
-      type: DataTypes.STRING,
-      allowNull: false, 
-    },
+     
     PlacementMatch: {
       type: DataTypes.BOOLEAN,
       allowNull: false, 
     },
-    IfPlacementWLD: {
-      type: DataTypes.STRING,
-      allowNull: false, 
-    },
     
+    IfPlacementWLD: DataTypes.STRING,
+
+    createdAt: {
+      type: DataTypes.DATE,
+      allowNull: true
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      allowNull: true
+    },
   });
 
   Game.associate = function(models) {
@@ -41,8 +39,7 @@ module.exports = function(sequelize, DataTypes) {
     Game.belongsTo(models.User, {
       foreignKey: {
         allowNull: false
-      },
-      
+      },     
     });
     Game.belongsTo(models.Season, {
       foreignKey: {

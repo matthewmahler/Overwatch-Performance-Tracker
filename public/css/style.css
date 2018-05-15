@@ -15,12 +15,22 @@ th{
 	width: 16%;
 }
 
+.section{
+	height: 100vh;
+	margin-top: 30px;
+}
+
 .header-container{
   background-color: #242424;
 }
 
 .main-logo{
+	padding: 0;
 	text-align: center;
+}
+
+.nav-row{
+	z-index: 2;
 }
 
 nav #menu{
@@ -34,7 +44,7 @@ display: inline-block;
 }
 
 .main-logo{
-	width: 90%;
+	width: 100%;
 }
 
 .btn-menu{
@@ -50,4 +60,13 @@ display: inline-block;
 
 form{
 	font-size: 2em;
+}
+
+input{
+width: 90%;
+}
+
+#add-game-btn{
+	padding-top: 10px;
+	width: 50%;
 }

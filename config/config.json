@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "overwatch_db",
+    "password": "1391",
+    "database": "overlynics_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

@@ -1,4 +1,9 @@
-
+var newGameNumber = "";
+var newWLD = "";
+var newRankDiff = "";
+var newRank;
+var newStreak = "";
+var newMap = "";
 
 
 $("#add-game-btn").on("click", function(event) {
@@ -6,22 +11,22 @@ $("#add-game-btn").on("click", function(event) {
 
   var newRank = $("#SR-input").val().trim();
   var newMap = $("#map-input").val().trim();
-  
 
   var newGame = {
+    gameNumber: newGameNumber,
+    WLD: newWLD,
+    rankDiff: newRankDiff,
     rank: newRank,
+    streak: newStreak,
     map: newMap,
-
   };
 
-  console.log(newGame.rank);
-  console.log(newGame.map);
+  console.log(newGame);
 
+  $("#SR-input").val("");
+  $("#map-input").val("");
 
-
-  $("#employee-name-input").val("");
-  $("#role-input").val("");
-
+  $("#season-table > tbody").append("<tr><td>" + newGameNumber + "</td><td>" + newWLD + "</td><td>" + newRankDiff + "</td><td>" + newRank + "</td><td>" + newStreak + "</td><td>" + newMap + "</td></tr>");
 });
 
 
