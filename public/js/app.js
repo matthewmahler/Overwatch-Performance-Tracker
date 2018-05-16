@@ -4,9 +4,12 @@ var newRankDiff = "";
 var newRank;
 var newStreak = "";
 var newMap = "";
+var User = "EmoMatt91"
+
+getGames(User);
 
 
-$("#add-game-btn").on("click", function(event) {
+$("#add-game-btn").on("click", function (event) {
   event.preventDefault();
 
   var newRank = $("#SR-input").val().trim();
@@ -26,8 +29,38 @@ $("#add-game-btn").on("click", function(event) {
   $("#SR-input").val("");
   $("#map-input").val("");
 
+
   $("#season-table > tbody").append("<tr><td>" + newGameNumber + "</td><td>" + newWLD + "</td><td>" + newRankDiff + "</td><td>" + newRank + "</td><td>" + newStreak + "</td><td>" + newMap + "</td></tr>");
 });
+
+function getGames(User) {
+  UserId = User || "";
+  if (UserId) {
+    UserId = "/?User_id=" + UserId;
+  }
+  console.log(UserId);
+  $.get("/api/games" + UserId, function (data) {
+    console.log("Games", data);
+    games = data;
+    buildTable(games);
+  })
+}
+
+function buildTable(games) {
+  console.log(games[0].Rank);
+  for (i = 0; i < games.length; i++) {
+    var row = $("<tr><td>" + games[i].SeasonGameNumber + "</td><td>" + "newWLD" + "</td><td>" + "newRankDiff" + "</td><td>" + games[i].Rank + "</td><td>" + "newStreak" + "</td><td>" + games[i].Map + "</td></tr>");
+    $("#season-table > tbody").append(row);
+  };
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -36,7 +69,7 @@ $("#add-game-btn").on("click", function(event) {
 // var BnetStrategy = require('passport-bnet').Strategy;
 // var BNET_ID = process.env.BNET_ID
 // var BNET_SECRET = process.env.BNET_SECRET
- 
+
 // // Use the BnetStrategy within Passport.
 // passport.use(new BnetStrategy({
 //     clientID: BNET_ID,
@@ -47,7 +80,7 @@ $("#add-game-btn").on("click", function(event) {
 // }));
 // app.get('/auth/bnet',
 //     passport.authenticate('bnet'));
- 
+
 // app.get('/auth/bnet/callback',
 //     passport.authenticate('bnet', { failureRedirect: '/' }),
 //     function(req, res){

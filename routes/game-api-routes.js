@@ -13,42 +13,36 @@ var db = require("../models");
 module.exports = function(app) {
 
   // GET route for getting all of the games
-  app.get("/api/games", function(req, res) {
-    var query = {};
-    if (req.query.user_id) {
-      query.UserId = req.query.user_id;
-    }
+  // app.get("/api/games", function(req, res) {
+  //   var query = {};
+  //   if (req.query.user_id) {
+  //     query.UserId = req.query.user_id;
+  //   }
+  //   db.Game.findAll({
+  //     where: query,
+  //     include: [db.User]
+  //   }).then(function(dbGame) {
+  //     res.json(dbGame);
+  //   });
+  // });
+
+  app.get("/api/games/", function(req, res) {
+    console.log(req.query.User_id);
     db.Game.findAll({
-      where: query,
-      include: [db.User]
-    }).then(function(dbGame) {
-      res.json(dbGame);
-    });
-  });
-
-  // Get route for retrieving a single post
-  app.get("/api/games/:id", function(req, res) {
-    // Here we add an "include" property to our options in our findOne query
-    // We set the value to an array of the models we want to include in a left outer join
-    // In this case, just db.User
-    db.Game.findOne({
       where: {
-        id: req.params.id
+      UserUUID : req.query.User_id
       },
-      include: [db.User]
     }).then(function(dbGame) {
       res.json(dbGame);
     });
   });
 
-  // POST route for saving a new post
   app.post("/api/games", function(req, res) {
     db.Game.create(req.body).then(function(dbGame) {
       res.json(dbGame);
     });
   });
 
-  // DELETE route for deleting games
   app.delete("/api/games/:id", function(req, res) {
     db.Game.destroy({
       where: {
@@ -59,7 +53,6 @@ module.exports = function(app) {
     });
   });
 
-  // PUT route for updating games
   app.put("/api/games", function(req, res) {
     db.Game.update(
       req.body,
