@@ -11,8 +11,12 @@ body {
 
 th{
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	width: 16%;
+}
+td{
+	text-align: center;
+	font-size: 1.5em;
 }
 
 .section{
@@ -53,10 +57,12 @@ display: inline-block;
 	font-weight: 700;
 }
 
-.game-section{
+#season-div{
 	text-align: center;
+	height: 100vh;
 	overflow: auto;
 }
+
 
 form{
 	font-size: 2em;
@@ -69,4 +75,15 @@ width: 90%;
 #add-game-btn{
 	padding-top: 10px;
 	width: 50%;
+}
+
+.graph-row{
+	height: 100vh;
+}
+
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
 }

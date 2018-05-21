@@ -2,9 +2,14 @@ var newGameNumber = "";
 var newWLD = "";
 var newRankDiff = "";
 var newRank;
-var newStreak = "";
+var newWinStreak = 0;
+var newLossStreak = 0;
 var newMap = "";
 var User = "EmoMatt91"
+var Season;
+var games;
+var gameNumberArray = [];
+var RankArray = [];
 
 getGames(User);
 
@@ -15,22 +20,52 @@ $("#add-game-btn").on("click", function (event) {
   var newRank = $("#SR-input").val().trim();
   var newMap = $("#map-input").val().trim();
 
-  var newGame = {
-    gameNumber: newGameNumber,
-    WLD: newWLD,
-    rankDiff: newRankDiff,
-    rank: newRank,
-    streak: newStreak,
-    map: newMap,
-  };
 
-  console.log(newGame);
+  var dbGame = {
+    AccountGameNumber: games[games.length - 1].AccountGameNumber + 1,
+    IfPlacementWLD: "",
+    Map: newMap,
+    PlacementMatch: false,
+    Rank: newRank,
+    SeasonGameNumber: games[games.length - 1].SeasonGameNumber + 1,
+    SeasonNumber: 10,
+    UserUuid: "EmoMatt91",
+    createdAt: "",
+    id: games[games.length - 1].id + 1,
+    updatedAt: ""
+  }
+  console.log(dbGame)
+  newGameNumber = games[games.length - 1].SeasonGameNumber + 1;
+  newRankDiff = newRank - games[games.length - 1].Rank;
+
+
+  if (newRankDiff > 0) {
+    newWLD = "W";
+  } else if (newRankDiff < 0) {
+    newWLD = "L";
+  } else {
+    newWLD = "D";
+  }
+
+  if (newWLD === "W") {
+    newWinStreak = newWinStreak + 1;
+    newLossStreak = 0;
+  } else if (newWLD === "L") {
+    newLossStreak = newLossStreak + 1;
+    newWinStreak = 0;
+  } else if (newWLD === "D") {
+    newLossStreak = 0;
+    newWinStreak = 0;
+  }
 
   $("#SR-input").val("");
   $("#map-input").val("");
 
 
-  $("#season-table > tbody").append("<tr><td>" + newGameNumber + "</td><td>" + newWLD + "</td><td>" + newRankDiff + "</td><td>" + newRank + "</td><td>" + newStreak + "</td><td>" + newMap + "</td></tr>");
+  $("#season-table > tbody").append("<tr><td>" + newGameNumber + "</td><td>" + newWLD + "</td><td>" + newRankDiff + "</td><td>" + newRank + "</td><td>" + newWinStreak + "/" + newLossStreak + "</td><td>" + newMap + "</td></tr>");
+
+  games.push(dbGame);
+
 });
 
 function getGames(User) {
@@ -38,51 +73,102 @@ function getGames(User) {
   if (UserId) {
     UserId = "/?User_id=" + UserId;
   }
-  console.log(UserId);
+
   $.get("/api/games" + UserId, function (data) {
     console.log("Games", data);
     games = data;
     buildTable(games);
+    // repackageData(games);
+    // buildGraph();
   })
 }
 
 function buildTable(games) {
-  console.log(games[0].Rank);
   for (i = 0; i < games.length; i++) {
-    var row = $("<tr><td>" + games[i].SeasonGameNumber + "</td><td>" + "newWLD" + "</td><td>" + "newRankDiff" + "</td><td>" + games[i].Rank + "</td><td>" + "newStreak" + "</td><td>" + games[i].Map + "</td></tr>");
+    var newRankDiff;
+    var newWLD;
+    var newWinStreak;
+    var newLossStreak;
+
+    if (!games[i].PlacementMatch) {
+      newRankDiff = games[i].Rank - games[i - 1].Rank;
+    } else {
+      newRankDiff = games[i].SeasonGameNumber + "/10";
+    }
+
+    if (!games[i].PlacementMatch) {
+      if (newRankDiff > 0) {
+        newWLD = "W";
+      } else if (newRankDiff < 0) {
+        newWLD = "L";
+      } else {
+        newWLD = "D";
+      }
+    } else if (games[i].PlacementMatch) {
+      newWLD = games[i].IfPlacementWLD;
+    }
+
+    if (!games[i].PlacementMatch) {
+      if (newWLD === "W") {
+        newWinStreak = newWinStreak + 1;
+        newLossStreak = 0;
+      } else if (newWLD === "L") {
+        newLossStreak = newLossStreak + 1;
+        newWinStreak = 0;
+      } else if (newWLD === "D") {
+        newLossStreak = 0;
+        newWinStreak = 0;
+      }
+    } else {
+      newWinStreak = ""
+      newLossStreak = ""
+    }
+
+    var row = $("<tr><td>" + games[i].SeasonGameNumber + "</td><td>" + newWLD + "</td><td>" + newRankDiff + "</td><td>" + games[i].Rank + "</td><td>" + newWinStreak + "/" + newLossStreak + "</td><td>" + games[i].Map + "</td></tr>");
     $("#season-table > tbody").append(row);
+
+    $("#season-div").scrollTop($("#season-div")[0].scrollHeight);
   };
 }
 
+function repackageData(games) {
+  for (i = 0; i < games.length; i++) {
+    var tempGameNumber = games[i].SeasonGameNumber
+    var tempRank = games[i].Rank
+    gameNumberArray.push(tempGameNumber)
+    RankArray.push(tempRank)
+  }
+}
+
+
+function buildGraph() {
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+      labels: gameNumberArray,
+      datasets: [{
+        label: User,
+        backgroundColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(255, 99, 132)',
+        data: RankArray,
+      }]
+    },
+
+    // Configuration options go here
+    options: {}
+  });
+}
+
+
+$("#login").on("click", function (event) {
+  event.preventDefault();
+
+
+})
 
 
 
-
-
-
-
-
-
-
-//I HAVE NO IDEA WHERE THIS IS GONNA GO
-
-// var BnetStrategy = require('passport-bnet').Strategy;
-// var BNET_ID = process.env.BNET_ID
-// var BNET_SECRET = process.env.BNET_SECRET
-
-// // Use the BnetStrategy within Passport.
-// passport.use(new BnetStrategy({
-//     clientID: BNET_ID,
-//     clientSecret: BNET_SECRET,
-//     callbackURL: "https://localhost:3000/auth/bnet/callback"
-// }, function(accessToken, refreshToken, profile, done) {
-//     return done(null, profile);
-// }));
-// app.get('/auth/bnet',
-//     passport.authenticate('bnet'));
-
-// app.get('/auth/bnet/callback',
-//     passport.authenticate('bnet', { failureRedirect: '/' }),
-//     function(req, res){
-//         res.redirect('/');
-//     });
