@@ -65,7 +65,15 @@ $("#add-game-btn").on("click", function (event) {
   $("#season-table > tbody").append("<tr><td>" + newGameNumber + "</td><td>" + newWLD + "</td><td>" + newRankDiff + "</td><td>" + newRank + "</td><td>" + newWinStreak + "/" + newLossStreak + "</td><td>" + newMap + "</td></tr>");
 
   games.push(dbGame);
-
+  $.ajax("/api/games/", {
+    type: "POST",
+    data: dbGame
+  }).then(
+    function() {
+      console.log("new game added");
+      // Reload the page to get the updated list
+    }
+  );
 });
 
 function getGames(User) {
@@ -87,8 +95,6 @@ function buildTable(games) {
   for (i = 0; i < games.length; i++) {
     var newRankDiff;
     var newWLD;
-    var newWinStreak;
-    var newLossStreak;
 
     if (!games[i].PlacementMatch) {
       newRankDiff = games[i].Rank - games[i - 1].Rank;
@@ -164,11 +170,8 @@ function buildGraph() {
 }
 
 
-$("#login").on("click", function (event) {
-  event.preventDefault();
 
 
-})
 
 
 

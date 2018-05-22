@@ -10,6 +10,7 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   Season.associate = function(models) {
+    
     // Associating Season with Posts
     // When an Season is deleted, also delete any associated Posts
     Season.hasMany(models.Game, {

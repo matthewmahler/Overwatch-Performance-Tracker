@@ -19,7 +19,7 @@ module.exports = function (app) {
     console.log(req.query.User_id);
     db.Game.findAll({
       where: {
-        UserUUID: req.query.User_id
+        GamertagId: req.query.User_id
         
       },
     }).then(function (dbGame) {

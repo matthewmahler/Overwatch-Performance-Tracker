@@ -36,7 +36,7 @@ module.exports = function(sequelize, DataTypes) {
   Game.associate = function(models) {
     // We're saying that a Game should belong to an User and a season
     // A Game can't be created without an User due to the foreign key constraint
-    Game.belongsTo(models.User, {
+    Game.belongsTo(models.Gamertag, {
       foreignKey: {
         allowNull: false
       },     

@@ -24,8 +24,16 @@ td{
 	margin-top: 30px;
 }
 
-.header-container{
-  background-color: #242424;
+.landing-panel{
+	text-align: center;
+	background: #242424;
+	z-index: 2;
+
+}
+
+.jumbotron{
+	background: #242424;
+	text-align: center;
 }
 
 .main-logo{
@@ -51,7 +59,7 @@ display: inline-block;
 	width: 100%;
 }
 
-.btn-menu{
+.btn{
 	background-color: #f89e19;
 	color: #242424;
 	font-weight: 700;
@@ -87,3 +95,4 @@ width: 90%;
 .btn.active span.glyphicon {				
 	opacity: 1;				
 }
+
