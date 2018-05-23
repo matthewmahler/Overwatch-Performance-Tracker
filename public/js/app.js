@@ -11,7 +11,7 @@ var games;
 var gameNumberArray = [];
 var RankArray = [];
 
-getGames(User);
+// getGames(User);
 
 
 $("#add-game-btn").on("click", function (event) {
