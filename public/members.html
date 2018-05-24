@@ -31,7 +31,7 @@
     </div>
   </div>
   <div id="fullpage">
- 
+
     <div class="section" id="section1">
       <div class="row">
         <div class="col-md-12 align-content-center text-center">
@@ -98,15 +98,18 @@
                 Visualize
               </h1>
             </div>
-            <div class="panel-body">
-              <canvas id="myChart"></canvas>
+            <div class="chart-wrapper">
+              <div class="panel-body chart-area-wrapper">
+                <canvas id="myChart" height="70vh" width="100vw"></canvas>
+              </div>
+              <canvas id="myChartAxis" height="70vh" width="0"></canvas>
             </div>
           </div>
         </div>
 
       </div>
     </div>
-  </div>
+
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/app.js"></script>

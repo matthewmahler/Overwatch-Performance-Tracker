@@ -41,6 +41,11 @@ module.exports = function(sequelize, DataTypes) {
         allowNull: false
       },     
     });
+    Game.belongsTo(models.User, {
+      foreignKey: {
+        allowNull: false
+      },     
+    });
     Game.belongsTo(models.Season, {
       foreignKey: {
         allowNull: false

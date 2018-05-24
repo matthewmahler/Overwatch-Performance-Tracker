@@ -16,10 +16,10 @@ module.exports = function (app) {
 
   //get games at a user route
   app.get("/api/games/", function (req, res) {
-    console.log(req.query.User_id);
+    console.log(req.query.Gamertag_id);
     db.Game.findAll({
       where: {
-        GamertagId: req.query.User_id
+        GamertagId: req.query.Gamertag_id
         
       },
     }).then(function (dbGame) {

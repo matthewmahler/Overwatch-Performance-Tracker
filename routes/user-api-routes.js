@@ -67,15 +67,16 @@ module.exports = function (app) {
           Email: fields.Email,
           Password: fields.Password,
         }).then(function (userInfo) {
-         // Upon successful signup, log user in
-         req.login(userInfo, function (err) {
-           if (err) {
-             console.log(err)
-             return res.status(422).json(err);
-           }
-           console.log(req.user);
-           return res.json("/members");
-         });
+          console.log(userInfo)
+          // Upon successful signup, log user in
+          req.login(userInfo, function (err) {
+            if (err) {
+              console.log(err)
+              return res.status(422).json(err);
+            }
+            console.log(req.user);
+            return res.json("/members");
+          });
         }).catch(function (err) {
           console.log(err);
           res.status(422).json(err);

@@ -5,13 +5,14 @@ var newRank;
 var newWinStreak = 0;
 var newLossStreak = 0;
 var newMap = "";
-var User = "EmoMatt91"
+var Gamertag = 1;
 var Season;
 var games;
 var gameNumberArray = [];
 var RankArray = [];
 
-// getGames(User);
+
+getGames(Gamertag);
 
 
 $("#add-game-btn").on("click", function (event) {
@@ -76,18 +77,18 @@ $("#add-game-btn").on("click", function (event) {
   );
 });
 
-function getGames(User) {
-  UserId = User || "";
-  if (UserId) {
-    UserId = "/?User_id=" + UserId;
+function getGames(Gamertag) {
+  GamertagId = Gamertag || "";
+  if (GamertagId) {
+    GamertagId = "/?Gamertag_id=" + Gamertag;
   }
 
-  $.get("/api/games" + UserId, function (data) {
+  $.get("/api/games" + GamertagId, function (data) {
     console.log("Games", data);
     games = data;
     buildTable(games);
-    // repackageData(games);
-    // buildGraph();
+    repackageData(games);
+    buildGraph();
   })
 }
 
@@ -157,15 +158,15 @@ function buildGraph() {
     data: {
       labels: gameNumberArray,
       datasets: [{
-        label: User,
+        label: Gamertag,
         backgroundColor: 'rgb(255, 99, 132)',
         borderColor: 'rgb(255, 99, 132)',
         data: RankArray,
       }]
-    },
+    }
 
-    // Configuration options go here
-    options: {}
+    
+    
   });
 }
 

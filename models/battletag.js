@@ -2,7 +2,7 @@ module.exports = function(sequelize, DataTypes) {
   var Gamertag = sequelize.define("Gamertag", {
     // Giving the Gamertag model a name of type STRING
     Battletag: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
     },
     
   });
