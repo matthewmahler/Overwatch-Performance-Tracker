@@ -16,11 +16,11 @@ module.exports = function (app) {
 
   //get games at a user route
   app.get("/api/games/", function (req, res) {
-    console.log(req.query.Gamertag_id);
+    console.log(req.query);
     db.Game.findAll({
       where: {
-        GamertagId: req.query.Gamertag_id
-        
+        GamertagId: req.query.Gamertag_id,
+        SeasonNumber: req.query.Season_id
       },
     }).then(function (dbGame) {
       res.json(dbGame);
@@ -28,7 +28,7 @@ module.exports = function (app) {
   });
 
   app.get("/api/gt_data/", function (req, res) {
-    console.log(req.query.User_id);
+    
     db.Gamertag.findAll({
       where: {
         UserUuid: req.query.User_id
@@ -38,6 +38,13 @@ module.exports = function (app) {
       res.json(dbGamertag);
     });
   });
+
+  app.get("/api/season_data/", function (req, res) {
+    db.Season.findAll().then(function (dbSeason) {
+      res.json(dbSeason);
+    });
+  });
+
 
   app.post("/api/games/", function (req, res) {
     db.Game.create(req.body).then(function (dbGame) {

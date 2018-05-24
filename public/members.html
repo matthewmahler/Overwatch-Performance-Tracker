@@ -19,9 +19,10 @@
   <div class="row nav-row">
     <div class="col-md-12">
       <nav class="nav justify-content-end">
-          <select class="btn py-2 my-2" id="gt-select" name="gt">
-            </select>
-
+        <select class="btn py-2 my-2" id="gt-select" name="gt">
+        </select>
+        <select class="btn py-2 my-2" id="season-select" name="season">
+        </select>
         <ul id="menu">
           <li data-menuanchor="secondPage">
             <a class="btn btn-menu" href="#section1" role="button">Games</a>
@@ -30,8 +31,8 @@
             <a class="btn btn-menu" href="#3rdPage" role="button">Analytics</a>
           </li>
           <li>
-              <button class="btn" id="get-games">GET GAMES</button>
-            </li>
+            <button class="btn" id="get-games">GET GAMES</button>
+          </li>
         </ul>
       </nav>
     </div>
@@ -108,7 +109,7 @@
               <div class="panel-body chart-area-wrapper">
                 <canvas id="myChart"></canvas>
               </div>
-              
+
             </div>
           </div>
         </div>

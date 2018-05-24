@@ -7,7 +7,11 @@ module.exports = function(sequelize, DataTypes) {
     },
     StartDate: DataTypes.DATEONLY,
     EndDate: DataTypes.DATEONLY
-  });
+  },{
+    timestamps: false
+}
+
+);
 
   Season.associate = function(models) {
     

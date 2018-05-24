@@ -8,11 +8,14 @@ var newMap = "";
 var Users;
 var currentUser;
 var currentGamertag;
+var currentSeason;
 var Gamertags;
 var Season;
 var games;
 var gameNumberArray = [];
 var RankArray = [];
+var localSeasonData;
+
 
 $(document).ready(function () {
   // This file just does a GET request to figure out which user is logged in
@@ -22,6 +25,14 @@ $(document).ready(function () {
     console.log("User", currentUser)
     getGamertags(currentUser)
   });
+
+  $.get("/api/season_data").then(function (SeasonData) {
+    localSeasonData = SeasonData;
+    console.log("Season", SeasonData)
+    createSeasonOptions();
+  });
+
+
 });
 
 function getGamertags(currentUser) {
@@ -42,10 +53,11 @@ function getGamertags(currentUser) {
 $("#get-games").on("click", function (event) {
   event.preventDefault();
   currentGamertag = $("#gt-select").val().trim()
+  currentSeason = $("#season-select").val().trim()
   console.log(currentGamertag)
   RankArray = [];
   gameNumberArray = [];
-  getGames(currentGamertag);
+  getGames(currentGamertag, currentSeason);
 
 
 })
@@ -113,14 +125,19 @@ $("#add-game-btn").on("click", function (event) {
   );
 });
 
-function getGames(currentGamertag) {
+function getGames(currentGamertag, currentSeason) {
   GamertagId = currentGamertag || "";
   if (GamertagId) {
-    GamertagId = "/?Gamertag_id=" + currentGamertag;
+    var GamertagId = "Gamertag_id=" + currentGamertag + "&";
   }
 
-  $.get("/api/games" + GamertagId, function (data) {
-    console.log("Games", data);
+  SeasonId = currentSeason || "";
+  if (SeasonId) {
+   var SeasonId = "Season_id=" + currentSeason + "&";
+  }
+
+  $.get("/api/games/?" + GamertagId + SeasonId, function (data) {
+    console.log("Games in Season: " + currentSeason, data);
     games = data;
     buildTable(games);
     repackageData(games);
@@ -207,5 +224,11 @@ function buildGraph() {
 function createGamertagOptions() {
   for (var i = 0; i < Gamertags.length; i++) {
     $('<option value="' + Gamertags[i].id + '">' + Gamertags[i].Battletag + '</option>').appendTo('#gt-select');
+  }
+}
+
+function createSeasonOptions() {
+  for (var i = 0; i < localSeasonData.length; i++) {
+    $('<option value="' + localSeasonData[i].Number + '">' + "Season: " + localSeasonData[i].Number + '</option>').appendTo('#season-select');
   }
 }
