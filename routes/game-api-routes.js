@@ -27,6 +27,18 @@ module.exports = function (app) {
     });
   });
 
+  app.get("/api/gt_data/", function (req, res) {
+    console.log(req.query.User_id);
+    db.Gamertag.findAll({
+      where: {
+        UserUuid: req.query.User_id
+        
+      },
+    }).then(function (dbGamertag) {
+      res.json(dbGamertag);
+    });
+  });
+
   app.post("/api/games/", function (req, res) {
     db.Game.create(req.body).then(function (dbGame) {
       res.json(dbGame);

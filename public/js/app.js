@@ -5,15 +5,50 @@ var newRank;
 var newWinStreak = 0;
 var newLossStreak = 0;
 var newMap = "";
-var Gamertag = 1;
+var Users;
+var currentUser;
+var currentGamertag;
+var Gamertags;
 var Season;
 var games;
 var gameNumberArray = [];
 var RankArray = [];
 
+$(document).ready(function () {
+  // This file just does a GET request to figure out which user is logged in
+  // and updates the HTML on the page
+  $.get("/api/user_data").then(function (UserData) {
+    currentUser = UserData.uuid;
+    console.log("User", currentUser)
+    getGamertags(currentUser)
+  });
+});
 
-getGames(Gamertag);
+function getGamertags(currentUser) {
 
+  UserId = currentUser || "";
+  if (UserId) {
+    UserId = "/?User_id=" + currentUser;
+  }
+
+  $.get("/api/gt_data" + UserId, function (data) {
+    Gamertags = data
+    console.log("Gamertags", Gamertags);
+    createGamertagOptions();
+  })
+
+}
+
+$("#get-games").on("click", function (event) {
+  event.preventDefault();
+  currentGamertag = $("#gt-select").val().trim()
+  console.log(currentGamertag)
+  RankArray = [];
+  gameNumberArray = [];
+  getGames(currentGamertag);
+
+
+})
 
 $("#add-game-btn").on("click", function (event) {
   event.preventDefault();
@@ -23,17 +58,18 @@ $("#add-game-btn").on("click", function (event) {
 
 
   var dbGame = {
+    id: "",
     AccountGameNumber: games[games.length - 1].AccountGameNumber + 1,
-    IfPlacementWLD: "",
-    Map: newMap,
-    PlacementMatch: false,
-    Rank: newRank,
     SeasonGameNumber: games[games.length - 1].SeasonGameNumber + 1,
-    SeasonNumber: 10,
-    UserUuid: "EmoMatt91",
+    Rank: newRank,
+    Map: newMap,
+    PlacementMatch: 0,
+    IfPlacementWLD: "",
     createdAt: "",
-    id: games[games.length - 1].id + 1,
-    updatedAt: ""
+    updatedAt: "",
+    GamertagId: currentGamertag,
+    UserUuid: currentUser,
+    SeasonNumber: 10
   }
   console.log(dbGame)
   newGameNumber = games[games.length - 1].SeasonGameNumber + 1;
@@ -70,17 +106,17 @@ $("#add-game-btn").on("click", function (event) {
     type: "POST",
     data: dbGame
   }).then(
-    function() {
+    function () {
       console.log("new game added");
       // Reload the page to get the updated list
     }
   );
 });
 
-function getGames(Gamertag) {
-  GamertagId = Gamertag || "";
+function getGames(currentGamertag) {
+  GamertagId = currentGamertag || "";
   if (GamertagId) {
-    GamertagId = "/?Gamertag_id=" + Gamertag;
+    GamertagId = "/?Gamertag_id=" + currentGamertag;
   }
 
   $.get("/api/games" + GamertagId, function (data) {
@@ -158,21 +194,18 @@ function buildGraph() {
     data: {
       labels: gameNumberArray,
       datasets: [{
-        label: Gamertag,
+        label: Gamertags[currentGamertag - 1].Battletag,
         backgroundColor: 'rgb(255, 99, 132)',
         borderColor: 'rgb(255, 99, 132)',
         data: RankArray,
       }]
     }
-
-    
-    
   });
 }
 
 
-
-
-
-
-
+function createGamertagOptions() {
+  for (var i = 0; i < Gamertags.length; i++) {
+    $('<option value="' + Gamertags[i].id + '">' + Gamertags[i].Battletag + '</option>').appendTo('#gt-select');
+  }
+}
