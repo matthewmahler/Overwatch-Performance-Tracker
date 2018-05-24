@@ -139,6 +139,7 @@ function getGames(currentGamertag, currentSeason) {
   $.get("/api/games/?" + GamertagId + SeasonId, function (data) {
     console.log("Games in Season: " + currentSeason, data);
     games = data;
+    
     buildTable(games);
     repackageData(games);
     buildGraph();
@@ -146,6 +147,7 @@ function getGames(currentGamertag, currentSeason) {
 }
 
 function buildTable(games) {
+  $("#season-table > tbody").empty();
   for (i = 0; i < games.length; i++) {
     var newRankDiff;
     var newWLD;

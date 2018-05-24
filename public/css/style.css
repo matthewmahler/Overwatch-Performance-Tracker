@@ -9,106 +9,115 @@ body {
 	color: #fff;
 }
 
-th{
+th {
 	text-align: center;
 	font-size: 3em;
 	width: 16%;
 }
-td{
+
+td {
 	text-align: center;
 	font-size: 1.5em;
 }
 
-.section{
+.section {
 	height: 100vh;
 	margin-top: 30px;
 }
 
-.landing-panel{
+.landing-panel {
 	text-align: center;
 	background: #242424;
 	z-index: 2;
-
 }
 
-.jumbotron{
+.jumbotron {
 	background: #242424;
 	text-align: center;
 }
 
-.main-logo{
+.main-logo {
 	padding: 0;
 	text-align: center;
 }
 
-.nav-row{
+.nav-row {
 	z-index: 2;
 }
 
-nav #menu{
-	z-index: 1;
-display: inline-block;
+#menu {
+	padding: 10px;
+	
+}
+
+#get-menu {
+	padding: 10px;
+	margin-left: 10px;
 
 }
 
-#menu li{
+nav #menu {
+	z-index: 1;
+	display: inline-block;
+}
+
+#menu li {
 	display: inline-block
 }
 
-.main-logo{
+.main-logo {
 	width: 100%;
 }
 
-.btn{
+.btn {
 	background-color: #f89e19;
 	color: #242424;
 	font-weight: 700;
 }
 
-#season-div{
+#season-div {
 	text-align: center;
 	height: 100vh;
 	overflow: auto;
 }
 
-
-form{
+form {
 	font-size: 2em;
 }
 
-input{
-width: 90%;
+input {
+	width: 90%;
 }
 
-#add-game-btn{
+#add-game-btn {
 	padding-top: 10px;
 	width: 50%;
 }
 
-.graph-row{
+.graph-row {
 	height: 100vh;
 }
 
-.btn span.glyphicon {    			
-	opacity: 0;				
+.btn span.glyphicon {
+	opacity: 0;
 }
-.btn.active span.glyphicon {				
-	opacity: 1;				
+
+.btn.active span.glyphicon {
+	opacity: 1;
 }
 
 .chart-wrapper {
 	position: relative;
 }
 
-.chart-wrapper > canvas {
+.chart-wrapper>canvas {
 	position: absolute;
 	left: 0;
 	top: 0;
-	pointer-events:none;
+	pointer-events: none;
 }
 
 .chart-area-wrapper {
-	width: 100vw;
+	width: 90vw;
 	overflow-x: scroll;
 }
-

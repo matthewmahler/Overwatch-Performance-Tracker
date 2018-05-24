@@ -17,12 +17,25 @@
 
 <body>
   <div class="row nav-row">
-    <div class="col-md-12">
+    <div class="col-md-6">
+      <nav class="nav justify-content-start">
+        <ul id="get-menu" class="justify-content-start">
+          <li>
+            <select class="btn py-2 my-2" id="gt-select" name="gt">
+            </select>
+          </li>
+          <li>
+            <select class="btn py-2 my-2" id="season-select" name="season">
+            </select>
+          </li>
+          <li>
+            <button class="btn" id="get-games">GET GAMES</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-md-6">
       <nav class="nav justify-content-end">
-        <select class="btn py-2 my-2" id="gt-select" name="gt">
-        </select>
-        <select class="btn py-2 my-2" id="season-select" name="season">
-        </select>
         <ul id="menu">
           <li data-menuanchor="secondPage">
             <a class="btn btn-menu" href="#section1" role="button">Games</a>
@@ -30,9 +43,7 @@
           <li data-menuanchor="3rdPage">
             <a class="btn btn-menu" href="#3rdPage" role="button">Analytics</a>
           </li>
-          <li>
-            <button class="btn" id="get-games">GET GAMES</button>
-          </li>
+
         </ul>
       </nav>
     </div>
